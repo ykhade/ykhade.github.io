@@ -9,18 +9,22 @@
     <link rel="stylesheet" href="https://cdn.hippicons.com/css/hippicons-min.css">
     <script src="https://use.fontawesome.com/26a408a36c.js"></script>
     <script src="https://use.typekit.net/cem0xfy.js"></script>
-    <script>try{Typekit.load({ async: true });}catch(e){}</script>
-    <script src="https://code.jquery.com/jquery-2.2.3.min.js" integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo=" crossorigin="anonymous"></script>
+    <script>try {
+        Typekit.load({async: true});
+    } catch (e) {
+    }</script>
+    <script src="https://code.jquery.com/jquery-2.2.3.min.js"
+            integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo=" crossorigin="anonymous"></script>
 
-    <title>Projects | Jeff Delaney&#39;s Work Portfolio, Apps, and Articles</title>
+    <title>Projects | Yash Khade&#39;s Work Portfolio, Apps, and Articles</title>
     <meta name="description" content="Web development projects, apps, and articles created by Yash Khade">
     <script type="text/javascript">
-        $(document).ready(function() {
+        $(document).ready(function () {
 
             var tagline = $('#hexFocus');
 
-            var updateText = function(hexClass, text) {
-                $(hexClass).on('mouseover active', function(){
+            var updateText = function (hexClass, text) {
+                $(hexClass).on('mouseover active', function () {
                     tagline.text(text);
                 });
             };
@@ -37,8 +41,8 @@
     </script>
     <link rel="shortcut icon" href="/assets/favicon.png">
     <link rel="stylesheet" href="/css/main.css">
-<!--    <link rel="canonical" href="https://jeffdelaney.me/projects/">-->
-<!--    <link rel="alternate" type="application/rss+xml" title="Yash Khade - Developer Profile and Résumé" href="https://jeffdelaney.me/feed.xml">-->
+    <!--    <link rel="canonical" href="https://jeffdelaney.me/projects/">-->
+    <!--    <link rel="alternate" type="application/rss+xml" title="Yash Khade - Developer Profile and Résumé" href="https://jeffdelaney.me/feed.xml">-->
 </head>
 
 
@@ -86,155 +90,121 @@
             <div class="row jdme-project">
                 <a href="https://github.com/ykhade/TODO_App">
                     <div class="three columns">
-                        <img src="/assets/todo.gif" alt="TODO-App | A flutter app" class="project-image" />
+                        <img src="/assets/todo.gif" alt="TODO-App | A flutter app" class="project-image"/>
                     </div>
                     <div class="nine columns">
                         <h3>TODO-App | A todo app </h3>
                         <p>
-                            A iOS and Android app written in the hybrid Flutter framework to create a clean app. Tools used include Flutter and Dart.
+                            A iOS and Android app written in the hybrid Flutter framework to create a clean app. Tools
+                            used include Flutter, Dart, Xcode, and Android Studio.
                         </p>
                     </div>
                 </a>
             </div>
 
             <div class="row jdme-project">
-                <a href="https://artifilter.com">
+                <a href="https://ykhade.github.io/hn-clone/">
                     <div class="three columns">
-                        <img src="/assets/JDME_AF.svg" alt="ArtiFilter | Neural Art Generator" class="project-image" />
+                        <img src="/assets/HN-cap.svg" alt="Hacker-Redux News | A Hacker News Clone "
+                             class="project-image"/>
                     </div>
                     <div class="nine columns">
-                        <h3>ArtiFilter | Neural Art Generator</h3>
+                        <h3> Hacker-Redux News | A Hacker News Clone </h3>
                         <p>
-                            ArtiFilter is a web app that uses deep learning to convert ordinary photos into artwork inspired by Matisse, Picasso, Van Gogh, and other great artists. Tools used include Angular, TypeScript, Flask, and GCP.
+                            They say imitation is the highest form of flattery so I rebuilt a HN clone with a dark mode
+                            and tile view. Tools used React/Redux, Javascript, HN API via AXIOS.
                         </p>
                     </div>
                 </a>
             </div>
 
             <div class="row jdme-project">
-                <a href="https://flashlawyer.com">
+                <a href="https://github.com/ykhade/FireChat-MegaChat">
                     <div class="three columns">
-                        <img src="/assets/JDME_FL.svg" alt="FlashLawyer | ChatBot Powered Legal Documents" class="project-image" />
+                        <img src="/assets/Firechat.svg" alt="MegaChat | A Firebase chat service"
+                             class="project-image"/>
                     </div>
                     <div class="nine columns">
-                        <h3>FlashLawyer | ChatBot Powered Legal Documents</h3>
+                        <h3>FireChat-MegaChat | A Firebase chat service</h3>
                         <p>
-                            FlashLayer provides a quick, free solution for commonly used legal documents. Unlike most apps that require a complex signup process, FlashLawyer makes the document available in real-time with chatbot assistance. Tools used include Angular, AWS Lex, and Firebase
+                            A chat app that allows multiple users to create and join a chat group after signing in
+                            through Google auth. Tools used Angular 2+, Firebase, and TypeScript.
                         </p>
                     </div>
                 </a>
             </div>
 
             <div class="row jdme-project">
-                <a href="https://campushippo.com">
+                <a href="https://github.com/ykhade/firebase-cloudfunctions">
                     <div class="three columns">
-                        <img src="/assets/JDME_CH.svg" alt="CampusHippo | Short-Burst Learning" class="project-image" />
+                        <img src="/assets/firebase_logo.svg" alt="Firebase Cloud | Cloud functions on Firebase"
+                             class="project-image"/>
                     </div>
                     <div class="nine columns">
-                        <h3>CampusHippo | Short-Burst Learning</h3>
+                        <h3>Firebase Cloud | Cloud functions on Firebase</h3>
                         <p>
-                            CampusHippo is a short-burst learning platform that allows people to share wisdom about tech, business, and marketing. Rather than teach a lesson about a single broad topic, CampusHippo targets highly specialized components of various skills. Tools used in Ruby on Rails, AngularJS, Redis, and Stripe Payments.
+                            This was a very basic dive into using the fully featured cloud suite of Firebase. Covers
+                            basics like HTTP, Auth, Background Testing, Firestore, and Callable Functions. Tools used
+                            Firebase and Google Cloud Platform with some Typescript.
                         </p>
                     </div>
                 </a>
             </div>
 
             <div class="row jdme-project">
-                <a href="https://hippicons.com">
+                <a href="https://ykhade.github.io/Learn-Chess/">
                     <div class="three columns">
-                        <img src="/assets/JDME_HI.svg" alt="HippIcons | An Alternative Icon Font" class="project-image" />
+                        <img src="/assets/CHess.svg" alt="Learn Chess | A simple chess site"
+                             class="project-image"/>
                     </div>
                     <div class="nine columns">
-                        <h3>HippIcons | An Alternative Icon Font</h3>
+                        <h3>Learn Chess| A simple chess site</h3>
                         <p>
-                            HippIcons is an open source icon font designed as a drop-in alternative to FontAwesome. It matches the class names of FontAwesome, but uses a completely different icon design, allowing developers to painlessly change icon styles in a web application. Tools used include MeteorJS, Sass, Adobe Illustrator, and AWS CloudFront.
+                           This is just a very simple responsive site showing the rules and basics of the game chess. It is made to showcase that simple is best therefore the tools used to make it were just basic HTML5 and CSS.
                         </p>
                     </div>
                 </a>
             </div>
 
-            <div class="row jdme-project">
-                <a href="https://anchorage.io">
-                    <div class="three columns">
-                        <img src="/assets/JDME_AIO.svg" alt="Anchorage.io | Community-Powered Boating Guides" class="project-image" />
-                    </div>
-                    <div class="nine columns">
-                        <h3>Anchorage.io | Community-Powered Boating Guides</h3>
-                        <p>
-                            Anchorage.io is a community-driven open-source project that enables sailors and other boat people to share knowledge and photos of remote boating locations. When you sail offshore to an unexplored anchorage, reliable information is scarce. Anchorage.io empowers boaters to share their opinions and concerns about any location on the water. Tools used in Ruby on Rails, Forecast.io, and Segment Analytics.
-                        </p>
-                    </div>
-                </a>
-            </div>
+<!--            <div class="row jdme-project">-->
+<!--                <a href="https://anchorage.io">-->
+<!--                    <div class="three columns">-->
+<!--                        <img src="/assets/JDME_AIO.svg" alt="Anchorage.io | Community-Powered Boating Guides"-->
+<!--                             class="project-image"/>-->
+<!--                    </div>-->
+<!--                    <div class="nine columns">-->
+<!--                        <h3>Anchorage.io | Community-Powered Boating Guides</h3>-->
+<!--                        <p>-->
+<!--                            Anchorage.io is a community-driven open-source project that enables sailors and other boat-->
+<!--                            people to share knowledge and photos of remote boating locations. When you sail offshore to-->
+<!--                            an unexplored anchorage, reliable information is scarce. Anchorage.io empowers boaters to-->
+<!--                            share their opinions and concerns about any location on the water. Tools used in Ruby on-->
+<!--                            Rails, Forecast.io, and Segment Analytics.-->
+<!--                        </p>-->
+<!--                    </div>-->
+<!--                </a>-->
+<!--            </div>-->
 
-            <div class="row jdme-project">
-                <a href="https://codediode.io">
-                    <div class="three columns">
-                        <img src="/assets/JDME_CD.svg" alt="CodeDiode.io | Code Tutorials Off the Beaten Path" class="project-image" />
-                    </div>
-                    <div class="nine columns">
-                        <h3>CodeDiode.io | Code Tutorials Off the Beaten Path</h3>
-                        <p>
-                            CodeDiode.io is a side project that focuses on step-by-step tutorials about writing code. Whenever I have time to share some insight with the web development community, I post it here.
-                        </p>
-                    </div>
-                </a>
-            </div>
+<!--            <div class="row jdme-project">-->
+<!--                <a href="https://codediode.io">-->
+<!--                    <div class="three columns">-->
+<!--                        <img src="/assets/JDME_CD.svg" alt="CodeDiode.io | Code Tutorials Off the Beaten Path"-->
+<!--                             class="project-image"/>-->
+<!--                    </div>-->
+<!--                    <div class="nine columns">-->
+<!--                        <h3>CodeDiode.io | Code Tutorials Off the Beaten Path</h3>-->
+<!--                        <p>-->
+<!--                            CodeDiode.io is a side project that focuses on step-by-step tutorials about writing code.-->
+<!--                            Whenever I have time to share some insight with the web development community, I post it-->
+<!--                            here.-->
+<!--                        </p>-->
+<!--                    </div>-->
+<!--                </a>-->
+<!--            </div>-->
 
-            <h2 id="writing">Writing</h2>
+            <!--            <h2 id="writing">Writing</h2>-->
 
-            <p>Things I’ve written, or were written about me…</p>
-
-            <div class="row jdme-post-link">
-
-                <div class="twelve columns">
-                    <a href="
-https://leanpub.com/angularfirebase/overview">
-                        <i class="hi hi-book"></i>
-                        <strong>The Angular Firebase Survival Guide</strong> | Cookbook of code snippets for realtime web applications.
-                    </a>
-                </div>
-            </div>
-
-            <div class="row jdme-post-link">
-
-                <div class="twelve columns">
-                    <a href="http://blog.kaggle.com/2017/03/15/leaf-classification-playground-competition-winning-kernels/">
-                        <i class="hi hi-commenting"></i>
-                        <strong>Leaf Classification Playground Competition: Winning Kernels</strong> | Jeff Delaney featured on Kaggle Blog No Free Hunch
-                    </a>
-                </div>
-            </div>
-
-            <div class="row jdme-post-link">
-
-                <div class="twelve columns">
-                    <a href="https://anchorage.io/blog/posts/sailing-with-terrapin-the-awesome-reality-of-cruising">
-                        <i class="hi hi-commenting"></i>
-                        <strong>Sailing with Terrapin Feature</strong> | What it's like to live on a sailboat in Mexico with kids.
-                    </a>
-                </div>
-            </div>
-
-            <div class="row jdme-post-link">
-
-                <div class="twelve columns">
-                    <a href="https://campushippo.com/news/posts/not-learning-anything-a-short-burst-study-plan-might-be-the-answer">
-                        <i class="hi hi-commenting"></i>
-                        <strong>Short-Burst Learning Techniques</strong> | How to try out a short-burst learning plan
-                    </a>
-                </div>
-            </div>
-
-            <div class="row jdme-post-link">
-
-                <div class="twelve columns">
-                    <a href="http://wavetothewind.com/">
-                        <i class="hi hi-ship"></i>
-                        <strong>Wave to the Wind</strong> | A blog of our travel adventures, mostly sailing related.
-                    </a>
-                </div>
-            </div>
+            <!--            <p>Things I’ve written, or were written about me…</p>-->
 
 
         </div>
@@ -251,7 +221,7 @@ https://leanpub.com/angularfirebase/overview">
             </a> |
             <a href="/projects">
                 Projects
-            </a> |
+            </a>
         </p>
         <p>
             <a href="https://github.com/ykhade"
@@ -267,16 +237,7 @@ https://leanpub.com/angularfirebase/overview">
 </footer>
 
 
-<!--<script>-->
-<!--    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){-->
-<!--        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),-->
-<!--        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)-->
-<!--    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');-->
 
-<!--    ga('create', 'UA-59099331-11', 'auto');-->
-<!--    ga('send', 'pageview');-->
-
-<!--</script>-->
 </body>
 
 </html>
