@@ -1028,11 +1028,13 @@ header {
     font-size: 2.5em;
 }
 
+
 .jdme-project {
     margin: 10px auto;
     padding: 10px;
     position: relative;
 }
+
 
 .jdme-project .project-image {
     margin-right: 15px;
